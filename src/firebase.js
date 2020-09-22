@@ -1,13 +1,13 @@
 import * as firebase from "firebase/app";
 
 const firebaseConfig = {
-  apiKey: "AIzaSyBy4ObhzURRoNY400B0Qzs8iHG9VJbmcSI",
-  authDomain: "newtweet-5a46f.firebaseapp.com",
-  databaseURL: "https://newtweet-5a46f.firebaseio.com",
-  projectId: "newtweet-5a46f",
-  storageBucket: "newtweet-5a46f.appspot.com",
-  messagingSenderId: "832729779888",
-  appId: "1:832729779888:web:b152bafd483012e329b575",
+  apiKey: process.REACT_APP_API_KEY,
+  authDomain: process.REACT_APP_AUTO_DOMAIN,
+  databaseURL: process.REACT_APP_DATABASE_URL,
+  projectId: process.REACT_APP_PROJECT_ID,
+  storageBucket: process.REACT_APP_STORAGE_BUCKET,
+  messagingSenderId: process.REACT_APP_SENDER_ID,
+  appId: process.REACT_APP_APP_ID,
 };
 // Initialize Firebase
 export default firebase.initializeApp(firebaseConfig);
