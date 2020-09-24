@@ -1,8 +1,9 @@
-Using Firebase Auth
+Login Form part One
 
-- [x] add footer (now Date().getFullYear())
-- [x] [importing componenet](https://create-react-app.dev/docs/importing-a-component/)
-  - add jsconfig.json
-  - change the path
-- [x] [firebase authentication call](https://firebase.google.com/docs/reference/js/firebase.auth.Auth)
-- [x] fbase에 apiKey: prcess.REACT_APP_API_KEY => apiKey: process<b><i>.env.</i></b>REACT_APP_API_KEY 이거 때문에 시간날림.
+- [x] [Go to firebaseAuthentication](https://console.firebase.google.com/u/0/project/newtweet-5a46f/authentication/providers)
+
+  - Check to email, google, github
+  - [Github.Settings.Developer settings](https://github.com/settings/developers) => Oauth Apps => Create New GitHub App => Resiter application => Insert Client ID, Client Secret
+
+- [] Make Auth form
+- [] Handling Auth console
